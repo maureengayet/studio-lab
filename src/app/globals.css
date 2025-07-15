@@ -3,11 +3,11 @@
 :root {
 	--background: #f2f0ec;
 	--foreground: #011f22;
+}
 
-	&.dark {
-		--background: #011f22;
-		--foreground: #fff;
-	}
+[data-theme="dark"] {
+	--background: #011f22;
+	--foreground: #fff;
 }
 
 body {
