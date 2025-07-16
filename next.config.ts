@@ -1,8 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-	// basePath: "/the-lab",
-	// devIndicators: false,
+  // basePath: "/the-lab",
+  devIndicators: false,
 };
 
 export default nextConfig;
